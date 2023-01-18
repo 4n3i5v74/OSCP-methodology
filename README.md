@@ -1,6 +1,8 @@
 
 ### General Information
 
+- The file [CTF-Machine-Template.md] is the template to be used. Copy the content to a new document and start with the target.
+- The logic is to use any `markdown` based editor like `obsidian`, `joplin`, `logseq` etc, where this `markdown` based template can be easily edited.
 - The content has blank `codeblocks` to capture log outputs.
 - The [Abstract] section will contain information about target, its services/protocols, any credentials found and flags.
 - The [Initial Setup] section has variables to be set. Setting initial variables and exporting in all working tabs is important for commands in all sections.
@@ -28,4 +30,4 @@
 
 ### Report Generation
 
-Refer to `Reporting` for steps to generate PDF report from `md` files using `pandoc` and `latex`.
+Refer to `Reporting.md` for steps to generate PDF report from `markdown` files using `pandoc` and `latex`.
